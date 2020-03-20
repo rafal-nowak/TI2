@@ -1,0 +1,6 @@
+imię: Rafał
+nazwisko: Nowak
+numer albumu: 123456
+e-mail: rafal.nowak@p.lodz.pl
+tryb studiów: stacjonarne
+grupa: 2AiSR1
