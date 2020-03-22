@@ -1,18 +1,21 @@
 ﻿#include <stdio.h>
-#include "math_lib.h"
 
-
+void foo(int a, int b = 2, int c = 5, int d = 10)
+{
+	printf_s("\n");
+	printf_s("a = %d\n", a);
+	printf_s("b = %d\n", b);
+	printf_s("c = %d\n", c);
+	printf_s("d = %d\n", d);
+	printf_s("\n");
+}
 
 int main(void)
 {
-	int liczba_1 = 2, liczba_2 = 5, wynik = 0;
-
-	printf_s("Program ten sluzy do obliczania sumy dwoch liczb\n");
-	printf_s("Wpraowdz liczby ktore chcesz zsumowac (rozdziel je spacja)\n");
-	scanf_s("%d %d", &liczba_1, &liczba_2);
-	//wynik = liczba_1 + liczba_2;
-	wynik = suma(liczba_1, liczba_2);
-	printf_s("Suma wprowadzonych liczb wynosi %d\n", wynik);
+	printf_s("Program ten sluzy do zaprezentowania wartosci domyslnych parametrow funkcji\n");
+	foo(1, 2, 3, 4);
+	foo(1, 2, 3);
+	foo(1, 2);
 
 	return 0;
 }
