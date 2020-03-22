@@ -1,20 +1,23 @@
 ﻿#include <stdio.h>
 
-float pole_powierzchni(float promien)
-{
-	return 3.14 * promien * promien;
-}
+enum IloscMiejscZerowych {ZERO, ONE, INF = 1000};
 
-float pole_powierzchni(float a, float b)
+enum IloscMiejscZerowych ilosc_miejsc_zerowych_funkcji_liniowej(float a, float b)
 {
-	return a * b;
+  //funkcja posiada nieskonczenie wiele miejsc zerowych f(x) = ax + b
+	if (a == 0 && b == 0) return INF;
+	//funkcja nie posiada miejsc zerowych
+	if (a == 0 && b != 0) return ZERO;
+	//funkcja posiada jednomiejsce zerowe
+	return ONE;
 }
 
 int main(void)
 {
-	printf_s("Program ten sluzy do zaprezentowania przeciazania funkcji\n");
-	printf_s("Pole prostokata wynosi %.2f\n", pole_powierzchni(5,10));
-	printf_s("Pole kola wynosi %.2f\n", pole_powierzchni(5));
+	printf_s("Program ten sluzy do zaprezentowania procesu projektowania funkcji\n");
+	printf_s("Funkcja posiada %d miejsc zerowych\n", ilosc_miejsc_zerowych_funkcji_liniowej(5,10));
+	printf_s("Funkcja posiada %d miejsc zerowych\n", ilosc_miejsc_zerowych_funkcji_liniowej(0, 0));
+	printf_s("Funkcja posiada %d miejsc zerowych\n", ilosc_miejsc_zerowych_funkcji_liniowej(0, 2));
 
 	return 0;
 }
