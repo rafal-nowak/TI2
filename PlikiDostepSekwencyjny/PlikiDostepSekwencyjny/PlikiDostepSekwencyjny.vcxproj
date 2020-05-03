@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{FE1FF569-8860-4775-8D8B-B863FA19E996}</ProjectGuid>
+    <ProjectGuid>{2A09CBCD-D98C-46D7-AFD8-0A1B67FCDCED}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Tablica4x4</RootNamespace>
+    <RootNamespace>PlikiDostepSekwencyjny</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,7 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Tablica4x4.cpp" />
+    <ClCompile Include="PlikiDostepSekwencyjny.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

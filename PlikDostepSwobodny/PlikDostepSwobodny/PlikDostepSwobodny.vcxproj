@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{FE1FF569-8860-4775-8D8B-B863FA19E996}</ProjectGuid>
+    <ProjectGuid>{3DE208F0-F1D1-4A39-9603-7DCE4F908C04}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Tablica4x4</RootNamespace>
+    <RootNamespace>PlikDostepSwobodny</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,7 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Tablica4x4.cpp" />
+    <ClCompile Include="PlikDostepSwobodny.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

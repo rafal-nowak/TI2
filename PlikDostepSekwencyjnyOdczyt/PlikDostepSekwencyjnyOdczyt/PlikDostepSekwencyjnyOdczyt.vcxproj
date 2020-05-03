@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{FE1FF569-8860-4775-8D8B-B863FA19E996}</ProjectGuid>
+    <ProjectGuid>{E8F67A33-C874-492E-AEFA-FF2731F80906}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Tablica4x4</RootNamespace>
+    <RootNamespace>PlikDostepSekwencyjnyOdczyt</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,7 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Tablica4x4.cpp" />
+    <ClCompile Include="PlikDostepSekwencyjnyOdczyt.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

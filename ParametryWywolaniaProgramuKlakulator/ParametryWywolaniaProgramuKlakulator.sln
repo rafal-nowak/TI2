@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParametryWywolaniaProgramuKlakulator", "ParametryWywolaniaProgramuKlakulator\ParametryWywolaniaProgramuKlakulator.vcxproj", "{8685F669-BB85-40ED-887E-1E1E431B3499}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8685F669-BB85-40ED-887E-1E1E431B3499}.Debug|x64.ActiveCfg = Debug|x64
+		{8685F669-BB85-40ED-887E-1E1E431B3499}.Debug|x64.Build.0 = Debug|x64
+		{8685F669-BB85-40ED-887E-1E1E431B3499}.Debug|x86.ActiveCfg = Debug|Win32
+		{8685F669-BB85-40ED-887E-1E1E431B3499}.Debug|x86.Build.0 = Debug|Win32
+		{8685F669-BB85-40ED-887E-1E1E431B3499}.Release|x64.ActiveCfg = Release|x64
+		{8685F669-BB85-40ED-887E-1E1E431B3499}.Release|x64.Build.0 = Release|x64
+		{8685F669-BB85-40ED-887E-1E1E431B3499}.Release|x86.ActiveCfg = Release|Win32
+		{8685F669-BB85-40ED-887E-1E1E431B3499}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2613AFDF-B36F-46B7-9C74-A74BF3E747B2}
+	EndGlobalSection
+EndGlobal
